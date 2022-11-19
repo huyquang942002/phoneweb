@@ -67,8 +67,8 @@ button {
 
 .top-bar {
   width: 100%;
-  height: 3.4rem;
-  background-color: #bfa2db;
+  height: 50px;
+  background-color: #515154;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,8 +76,9 @@ button {
 .top-bar__container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   width: 130rem;
+  height: 100%;
 }
 .top-bar-phone {
   color: white;
@@ -89,6 +90,26 @@ button {
   justify-content: center;
   border-left: 1px solid white;
   margin-left: 2rem;
+}
+.top-bar__container-wrap {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar__container-wrap:first-child {
+    width: 400px;
+}
+.top-bar__container-wrap-link {
+    color: white;
+    font-size: 1.4rem;
+    padding: 15px 13px;
+}
+.top-bar__container-wrap-link:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
 }
 .top-bar-phone i {
   font-size: 2rem;
@@ -116,14 +137,14 @@ button {
   cursor: pointer;
 }
 .masthead__logo {
-  color: #bfa2db;
+  color: #515154;
   width: 25%;
   font-weight: bold;
   font-size: 5rem;
   cursor: pointer;
 }
 .masthead__logo a {
-  color: #bfa2db;
+  color: #515154;
 }
 .masthead__find {
   width: 50%;
@@ -145,7 +166,7 @@ button {
   padding: 0.6rem;
   border-radius: 0.5rem;
   color: white;
-  background-color: #bfa2db;
+  background-color: #515154;
   flex-shrink: 0;
 }
 .masthead__icon {
@@ -180,7 +201,7 @@ button {
 }
 .masthead__login i {
   padding: 1rem;
-  color: #bfa2db;
+  color: #515154;
   pointer-events: none;
 }
 .masthead__cart {
@@ -213,7 +234,7 @@ button {
 }
 .masthead__cart i {
   padding: 1rem;
-  color: #bfa2db;
+  color: #515154;
   pointer-events: none;
 }
 .masthead__cart-item:hover {
@@ -357,7 +378,7 @@ button {
   font-size: 1.5rem;
 }
 .navbar__menu {
-  width: calc(80.7% - 1rem);
+  width: 100%;
 }
 .navbar__menu-group {
   display: flex;
@@ -380,7 +401,7 @@ button {
   margin-right: 1rem;
 }
 .navbar__menu-item:hover {
-  background-color: #bfa2db;
+  background-color: #515154;
 }
 .navbar__menu-item:hover a {
   color: white;
@@ -417,7 +438,7 @@ button {
 }
 .main .homepage {
   background-color: #ededed;
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -515,6 +536,9 @@ button {
 .main .homepage-brands-title {
   border-bottom: 1px solid #ededed;
   padding: 0.5rem 2rem;
+  font-weight: 550;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 .main .homepage-brands-group {
   overflow-x: auto;
@@ -570,6 +594,7 @@ button {
 .list_product-info-title {
   padding-top: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 .list_product-info-title span {
   font-weight: bold;
@@ -695,7 +720,7 @@ button {
   cursor: pointer;
   border: none;
   padding: 1rem 2.5rem;
-  background-color: #bfa2db;
+  background-color: #515154;
   color: white;
   border-radius: 5px;
   overflow: hidden;

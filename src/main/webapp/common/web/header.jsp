@@ -1,26 +1,46 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="/common/taglib.jsp" %>
 <!-- ----------------------------------------------------------------------------------Header -->
+<link href="../../template/web/css/style.css" rel="stylesheet" type="text/css"/>
 <!-- ----------------------------------------------------------------------------Header-Banner-->
 <div class="header">
 	<!-- --------------------------------------------------------------------------Header-Top-Bar-->
 	<div class="top-bar">
 	    <div class="top-bar__container">
-	        <a class="top-bar-phone">
-	            <i class="fas fa-headset"></i>
-	            <span>Tư vấn mua hàng : 1800 6666</span>
-	        </a>
-	        <a class="top-bar-phone">
-	            <i class="fas fa-headset"></i>
-	            <span>CSKH : 1800 9999</span>
-	        </a>
+                <div class="top-bar__container-wrap">
+                    <a href='<c:url value="/all-product-by-category?categoryId=1"></c:url>' class="top-bar__container-wrap-link">
+                        <span>IPHONE</span>
+                    </a>
+                    <a href='<c:url value="/all-product-by-category?categoryId=2"></c:url>' class="top-bar__container-wrap-link">
+                        <span>IPAD</span>
+                    </a> 
+                    <a href='<c:url value="/all-product-by-category?categoryId=3"></c:url>' class="top-bar__container-wrap-link">
+                        <span>MACBOOK</span>
+                    </a>
+                </div>
+                
+                <div class="top-bar__container-wrap">
+                    <a class="top-bar-phone">
+                        <i class="fas fa-headset"></i>
+                        <span>Tư vấn mua hàng : 1800 6666</span>
+                    </a>
+                    <a class="top-bar-phone">
+                        <i class="fas fa-headset"></i>
+                        <span>CSKH : 1800 9999</span>
+                    </a>
+                </div>
+	        
 	    </div>
 	</div>
+        
+        
+        
+        
 	<!-- -------------------------------------------------------------------------Header-Masthead-->
 	<div class="masthead">
 	    <div class="masthead__container">
 	        <div class="masthead__logo">  
-	            <a href="<c:url value='/trang-chu'/>" class="masthead__logo-text">THLShop</a>
+	            <a href="<c:url value='/trang-chu'/>" class="masthead__logo-text">ShopDunk</a>
 	            <i class="fas fa-bars masthead__menu-toggle"></i>
 	        </div>
         	<form class="masthead__find" action='<c:url value="/all-product-by-brand"></c:url>' method="get">
@@ -60,7 +80,7 @@
 	    </div>
 	    <div class="navbar">
 	        <div class="navbar__container">
-	            <div class="catalog">
+<!--	            <div class="catalog">
 	                <div class="catalog-title">
 	                    <i class="fas fa-bars"></i>
 	                    <span>DANH MỤC SẢN PHẨM</span>
@@ -68,20 +88,20 @@
 	                <div class="catalog-group"> 
 	                    <a href='<c:url value="/all-product-by-category?categoryId=1"></c:url>' class="catalog-item">
 	                        <i class="fas fa-mobile-alt"></i>
-	                        <span class="catalog-name">Điện Thoại Phổ Thông</span>
+	                        <span class="catalog-name">iPHONE</span>
 	                        <i class="fa fa-angle-right arrow" ></i>
 	                    </a>
 	                    <a href='<c:url value="/all-product-by-category?categoryId=2"></c:url>' class="catalog-item">
 	                        <i class="fas fa-mobile"></i>
-	                        <span class="catalog-name">Điện Thoại Flagship</span>
+	                        <span class="catalog-name">MAC</span>
 	                        <i class="fa fa-angle-right arrow"></i>
 	                    </a>
 	                    <a href='<c:url value="/all-product-by-category?categoryId=3"></c:url>' class="catalog-item">
 	                        <i class="fas fa-gamepad"></i>
-	                        <span class="catalog-name">Điện Thoại Gaming</span>
+	                        <span class="catalog-name">iPAD</span>
 	                        <i class="fa fa-angle-right arrow"></i>
 	                    </a>
-	                    <!-- <a href="#" class="catalog-item">
+	                     <a href="#" class="catalog-item">
 	                        <i class="fas fa-headphones-alt"></i>
 	                        <span class="catalog-name">Tai nghe</span>
 	                        <i class="fa fa-angle-right arrow"></i>
@@ -95,10 +115,10 @@
 	                        <i class="fab fa-usb"></i>
 	                        <span class="catalog-name">Sạc, cáp</span>
 	                        <i class="fa fa-angle-right arrow"></i>
-	                    </a> -->
+	                    </a> 
 	                    
 	                </div>
-	            </div>
+	            </div>-->
 	            <div class="navbar__menu">
 	                <ul class="navbar__menu-group">
 	                    <li class="navbar__menu-item">
