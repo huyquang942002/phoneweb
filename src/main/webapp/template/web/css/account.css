@@ -1,0 +1,194 @@
+.account {
+  width: 100%;
+  min-height: 50rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+}
+.account__left {
+  width: 20%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.account__left a {
+  padding: 1.5rem 0;
+  color: #7f7c82;
+  font-weight: 500;
+}
+.account__left a.active {
+  color: #bfa2db;
+}
+.account__left a:hover {
+  color: #bfa2db;
+}
+.account__left a i {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  pointer-events: none;
+}
+
+.account__left p {
+  padding: 1.5rem 0;
+  color: #7f7c82;
+  font-weight: 500;
+  cursor: pointer;
+}
+.account__left p.active {
+  color: #bfa2db;
+}
+.account__left p:hover {
+  color: #bfa2db;
+}
+.account__left p i {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  pointer-events: none;
+}
+.account__left a span {
+  pointer-events: none;
+}
+.account__left p span {
+  pointer-events: none;
+}
+.account__right {
+  width: calc(80% - 1rem);
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.account-info-container .account-form {
+  width: 100%;
+  min-height: 40rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  color: #7f7c82;
+  display: none;
+}
+.account-info-container .account-form:last-child {
+  padding: 0 3rem;
+}
+.account-info-container .account-form.show {
+  display: block;
+}
+.account-info-container .account-form p {
+  color: black;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.account-info-container .account-form .form-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+}
+.account-info-container .account-form .form-group input {
+  width: 80%;
+  border: 2px solid #ededed;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #7f7c82;
+}
+.account-info-container .account-form .form-group input:focus {
+  border-color: #bfa2db;
+}
+.account-info-container .account-form .form-group:last-child {
+  align-items: center;
+  justify-content: center;
+}
+#btnUpdateUser {
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  padding: 1rem 2.5rem;
+  background-color: white;
+  border: 2px solid #bfa2db;
+  color: #bfa2db;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.2s linear;
+}
+.account-info-container .account-form .form-group:last-child button:active {
+  transform: translateY(3%);
+  box-shadow: 0 1px 0 0 rgba(127, 124, 130, 0.2);
+}
+.account-info-container .account-form .form-group:last-child button:hover {
+  background-color: #bfa2db;
+  color: white;
+}
+.table {
+  display: table;
+  border: 1px solid #ededed;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.table thead th {
+  text-align: center;
+  padding: 1rem;
+  background-color: #bfa2db;
+  color: white;
+  border: 1px solid #ededed;
+}
+.table tbody tr:nth-child(even) {
+  background-color: #f3f4f7;
+}
+.table tbody tr td {
+  border: 1px solid #ededed;
+  padding: 1rem;
+  font-size: 1.6rem;
+  line-height: 1.42857143;
+  vertical-align: middle !important;
+  text-align: left;
+}
+.table tbody tr td:nth-child(4) {
+  text-align: right;
+}
+
+.success {
+  color: green;
+}
+.processing {
+  color: #00308f;
+}
+.failed {
+  color: red;
+}
+@media screen and (max-width: 1151px) {
+  .account-info-container .account-form .form-group {
+    padding: 1rem 5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .account-info-container .account-form .form-group {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__left a i {
+    font-size: 3rem;
+  }
+  .account__left a span {
+    display: none;
+  }
+  .account-info-container .account-form:last-child {
+    padding: 0 0;
+  }
+  .account__left {
+    width: 10%;
+  }
+  .account__right {
+    width: calc(90% - 1rem);
+  }
+}
+/*# sourceMappingURL=account.css.map */

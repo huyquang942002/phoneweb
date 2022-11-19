@@ -1,0 +1,45 @@
+.thank {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+}
+.thank__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+.thank__content h3 {
+  color: #bfa2db;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2rem;
+}
+.thank__img img {
+  width: 5rem;
+}
+.thank__btn {
+  display: block;
+  padding: 0.5rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  background-color: #bfa2db;
+  color: white;
+}
+.checkout-step.thank-bar::before {
+  content: "";
+  position: absolute;
+  width: 67%;
+  height: 0.8rem;
+  border-radius: 1rem;
+  background-color: #bfa2db;
+  border: 1px solid #bfa2db;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
