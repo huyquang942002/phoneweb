@@ -21,14 +21,14 @@
 							<div class="payment-form-methods-item">
 								<input type="radio" name="payment-methods" id="cod"> <label
 									for="cod"> <img
-									src="https://beta.gearvn.com/wp-content/themes/gearvn-electro-child-v1/assets/images/payments/icon-payment-method-cod.svg"
+									src="https://beta.gearvn.com/wp-content/themes/gearvn-electro-child-v1/assets/icon-payment-method-cod.svg"
 									alt=""> Trả tiền mặc khi nhận hàng
 								</label>
 							</div>
 							<div class="payment-form-methods-item">
 								<input type="radio" name="payment-methods" id="atm"> <label
 									for="atm"> <img
-									src="https://beta.gearvn.com/wp-content/themes/gearvn-electro-child-v1/assets/images/payments/icon-payment-method-atm.svg"
+									src="https://beta.gearvn.com/wp-content/themes/gearvn-electro-child-v1/assets/icon-payment-method-atm.svg"
 									alt=""> Thẻ ATM nội địa/Internet Banking
 								</label>
 							</div>

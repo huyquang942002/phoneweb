@@ -36,7 +36,7 @@ input {
   align-items: center;
   justify-content: center;
   background-color: white;
-  color: #bfa2db;
+  color: #515154;
   font-size: 2.5rem;
   padding: 0.5rem;
   transform: translate(-25%, 25%);
@@ -62,7 +62,7 @@ input {
   font-weight: 600;
   margin-top: 3rem;
   margin-bottom: 6rem;
-  color: #bfa2db;
+  color: #515154;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -92,7 +92,7 @@ input {
 }
 
 .form__item input:focus {
-  border-color: #bfa2db;
+  border-color: #515154;
 }
 
 .form__item--thanks {
@@ -136,7 +136,7 @@ input {
   border: 1px solid #7f7c82;
   position: absolute;
   content: "";
-  background-color: #bfa2db;
+  background-color: #515154;
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 1rem;
@@ -147,7 +147,7 @@ input {
 
 .form__term .checkbox__label a {
   text-decoration: none;
-  color: #bfa2db;
+  color: #515154;
   text-align: center;
 }
 
@@ -170,7 +170,7 @@ input {
   cursor: pointer;
   border: none;
   padding: 1rem 2.5rem;
-  background-color: #bfa2db;
+  background-color: #515154;
   color: white;
   border-radius: inherit;
   margin-top: 2rem;
@@ -208,7 +208,7 @@ input {
 
 .form__already a {
   text-decoration: none;
-  color: #bfa2db;
+  color: #515154;
 }
 
 .form__already a:hover {
@@ -223,7 +223,7 @@ input {
   height: 6rem;
   border: 2px solid #7f7c82;
   border-radius: 5rem;
-  background-color: #bfa2db;
+  background-color: #515154;
 }
 
 .btn__home:active {

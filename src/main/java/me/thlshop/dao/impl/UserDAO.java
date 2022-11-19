@@ -99,7 +99,7 @@ public class UserDAO implements IUserDAO {
 			Query query = session.createQuery(hql);
 			query.setParameter("email", email);
 			query.setParameter("password", password);
-			query.setMaxResults(1);
+			query.setMaxResults(2);
 			userEntity = (UserEntity)query.uniqueResult();
 			transaction.commit();
 			session.close();

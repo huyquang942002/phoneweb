@@ -42,7 +42,7 @@
 										<a
 											href='<c:url value="/all-product-by-brand?brandId=${brand.brandId}"></c:url>'
 											class="homepage-brands-item"> <img
-											src='<c:url value="images/imageBrand/${brand.logo}"/>'
+											src='<c:url value="${brand.logo}"/>'
 											alt="brand"></a>
 									</c:forEach>
 									
@@ -69,7 +69,7 @@
 								<a
 									href='<c:url value="/product-detail?productId=${item.productId}"></c:url>'
 									class="list_product-info-item"> <img
-									src='<c:url value="images/imageProduct/${item.imageId.imageSmall}"/>'
+									src='<c:url value="${item.imageId.imageSmall}"/>'
 									alt="Hinh">
 									<div class="list_product-info-inf">
 										<p class="list_product-info-item-name">${item.productName}</p>

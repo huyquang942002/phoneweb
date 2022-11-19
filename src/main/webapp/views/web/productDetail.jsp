@@ -19,7 +19,7 @@
 				<div class="single__product-infor">
 					<div class="single__product-infor-left">
 						<div class="single__product-infor-img">
-							<img src='<c:url value="images/imageProduct/${product.imageId.imageBig}"/>' alt="hinh">
+							<img src='<c:url value="${product.imageId.imageBig}"/>' alt="hinh">
 						</div>
 					</div>
 					<div class="single__product-infor-right">
@@ -58,7 +58,7 @@
 									<input type="hidden" name="quantity" value= "1">
 									<button type="submit">
 										<i class="fas fa-cart-arrow-down"></i>
-										<p>Mua hàng</p>
+										<p>Thêm vào giỏ hàng</p>
 									</button>
 								</form>
 						</div>

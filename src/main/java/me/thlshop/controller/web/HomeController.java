@@ -88,6 +88,9 @@ public class HomeController extends HttpServlet {
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		//Login thi`xu? ly' o? day
+
 		response.setContentType("text/html;charset=UTF-8");
 		String action = request.getParameter("action");
 		Cookie[] cookies = request.getCookies();
