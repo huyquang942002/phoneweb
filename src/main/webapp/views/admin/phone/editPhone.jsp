@@ -155,11 +155,11 @@
 	        <div class="image">
 	        	<div class="img_small">
 	                <p>Small Image</p>
-	                <img src='<c:url value="images/imageProduct/${PRODUCT.imageId.imageSmall}"/>' alt="">
+	                <img src='<c:url value="${PRODUCT.imageId.imageSmall}"/>' alt="">
 	            </div>
 	            <div class="img_big">
 	                <p>Big Image</p>
-	                <img src='<c:url value="images/imageProduct/${PRODUCT.imageId.imageBig}"/>'>
+	                <img src='<c:url value="${PRODUCT.imageId.imageBig}"/>'>
 	            </div>
 	        </div>
         </c:if>

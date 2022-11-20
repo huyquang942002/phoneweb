@@ -49,7 +49,7 @@
 							<c:forEach var="item" items="${model}">
 							<tr>
 								<td>${item.productId}</td>
-								<td><img src='<c:url value="images/imageProduct/${item.imageId.imageBig}"/>' width="90" height="70"> </td>
+								<td><img src='<c:url value="${item.imageId.imageBig}"/>' width="90" height="70"> </td>
 								<td>${item.productName}</td>
 								<td>${item.price}đ</td>
 								<td>${item.categoryId.categoryName}</td>

@@ -50,11 +50,17 @@ public class ImageController extends HttpServlet {
 		rd.forward(request, response);
 	}
 
+
+	// Add images
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		response.setContentType("text/html;charset=UTF-8");
 		ServletContext sc = this.getServletConfig().getServletContext();
-		String realPath = sc.getRealPath("/images/imageProduct");
+
+		// Đường dẫn lấy ảnh
+		String realPath = sc.getRealPath("");
+		// Đường dẫn lấy ảnh
+
 		HashMap<String, String> fields = ImageUtil.mageHandle(request, realPath);
 
 		if (fields.get("imageId") == null || fields.get("imageId").equals("")) {

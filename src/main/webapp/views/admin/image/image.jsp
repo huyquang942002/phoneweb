@@ -18,6 +18,7 @@
 							${messageResponse}
 				</div>
 			</c:if>
+
 			<div class="ace-settings-container" id="ace-settings-container">
             	<a href='<c:url value="/admin-image?type=edit"/>'>
                 <div style="margin-right: 1rem; border-radius: 5px;" class="btn btn-app btn-xs btn-warning ace-settings-btn" id="add-user" >

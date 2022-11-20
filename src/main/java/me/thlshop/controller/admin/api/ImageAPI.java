@@ -15,6 +15,9 @@ import me.thlshop.dto.ImageDTO;
 import me.thlshop.service.IImageService;
 import me.thlshop.utils.HttpUtil;
 
+// Trang này Dùng để xóa ảnh
+
+
 @WebServlet(urlPatterns = {"/api-admin-image"})
 public class ImageAPI extends HttpServlet{
 	private static final long serialVersionUID = 1L;

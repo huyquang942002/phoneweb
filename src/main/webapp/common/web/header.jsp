@@ -73,9 +73,16 @@
 	            	</c:if>
 	                
 	                <i class="fa fa-shopping-cart"></i>
-	                <p class="masthead__cart-item">Giỏ Hàng</p>
+	                <p class="masthead__cart-item">Cart</p>
 	            </a>
+                        
+                    <a href="/ShopPhone/admin-dashboard" class="masthead__cart">
+	                <p class="masthead__cart-item" >ADMIN</p>
+	            </a>    
+                        
+                        
 	        </div>
+                        
 	        </div>
 	    </div>
 	    <div class="navbar">
