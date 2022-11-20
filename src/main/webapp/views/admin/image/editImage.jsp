@@ -76,11 +76,11 @@
 	        <div class="image">
 	        	<div class="img_small">
 	                <p>Small Image</p>
-	                <img src='<c:url value="images/imageProduct/${IMAGE.imageSmall}"/>' alt="">
+	                <img src='<c:url value="${IMAGE.imageSmall}"/>' alt="">
 	            </div>
 	            <div class="img_big">
 	                <p>Big Image</p>
-	                <img src='<c:url value="images/imageProduct/${IMAGE.imageBig}"/>'>
+	                <img src='<c:url value="${IMAGE.imageBig}"/>'>
 	            </div>
 	        </div>
         </c:if>

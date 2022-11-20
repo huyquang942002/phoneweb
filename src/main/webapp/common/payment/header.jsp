@@ -2,19 +2,34 @@
     pageEncoding="UTF-8"%>
 <%@ include file="/common/taglib.jsp"%>
 <div class="header">
-    
-        <div class="banner" >
-            <div class="banner__container" style="background-color: #6700ab;" >
-                <a href="#" class="banner-item">
-                    <img src="https://theme.hstatic.net/1000026716/1000440777/14/bn-top3.jpg?v=22357" alt="" >
+
+    <div class="top-bar">
+        <div class="top-bar__container">
+            <div class="top-bar__container-wrap">
+                <a href='<c:url value="/all-product-by-category?categoryId=1"></c:url>' class="top-bar__container-wrap-link">
+                    <span>IPHONE</span>
+                </a>
+                <a href='<c:url value="/all-product-by-category?categoryId=2"></c:url>' class="top-bar__container-wrap-link">
+                    <span>IPAD</span>
+                </a>
+                <a href='<c:url value="/all-product-by-category?categoryId=3"></c:url>' class="top-bar__container-wrap-link">
+                    <span>MACBOOK</span>
                 </a>
             </div>
-        </div>
-        <div class="top-bar">
-            <div class="top-bar__container">
-             
+
+            <div class="top-bar__container-wrap">
+                <a class="top-bar-phone">
+                    <i class="fas fa-headset"></i>
+                    <span>Tư vấn mua hàng : 1800 6666</span>
+                </a>
+                <a class="top-bar-phone">
+                    <i class="fas fa-headset"></i>
+                    <span>CSKH : 1800 9999</span>
+                </a>
             </div>
+
         </div>
+    </div>
         <div class="masthead">
         <div class="masthead__container">
             <div class="masthead__logo">  

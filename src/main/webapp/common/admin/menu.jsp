@@ -33,13 +33,7 @@
 				<span style="font-family: Arial, Helvetica, sans-serif;"
 				class="menu-text"> Product </span>
 		</a> <b class="arrow"></b></li>
-		
-		<li class="brand"><a href='<c:url value="/admin-brand?type=list"/>' style="cursor: pointer;"
-			> <i class="fas fa-building menu-icon"></i>
-				<span style="font-family: Arial, Helvetica, sans-serif;"
-				class="menu-text"> Brand </span>
-		</a> <b class="arrow"></b></li>
-		
+
 		<li class="brand"><a href='<c:url value="/admin-image?type=list"/>' style="cursor: pointer;"
 			> <i class="far fa-image menu-icon"></i>
 				<span style="font-family: Arial, Helvetica, sans-serif;"

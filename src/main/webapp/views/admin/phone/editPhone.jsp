@@ -55,26 +55,7 @@
                               </c:if>
 	                    </select>
                     </div>
-                    <div class="form-item select">
-                        <label>Brand</label>
-                        <select id="brandId" name="brandId">
-                            <c:if test="${empty PRODUCT.brandId}">
-                              	<option>Choose one</option>
-					        <c:forEach var="item" items="${brand}">									
-								<option value="${item.brandId}">${item.brandName}</option>										
-							</c:forEach>
-                               </c:if>
-                               
-                               <c:if test="${not empty PRODUCT.brandId}">                                    	
-							        <option value="${PRODUCT.brandId.brandId}">${PRODUCT.brandId.brandName}</option>
-									<c:forEach var="item" items="${brand}">
-										<c:if test="${PRODUCT.brandId.brandId != item.brandId}">								
-											<option value="${item.brandId}">${item.brandName}</option>
-										</c:if>								
-									</c:forEach>
-                              </c:if>
-                        </select>
-                    </div>
+
                     <div class="form-item">
                         <label for="price">Price</label>
                         <input type="text" name="price" id="price" value="${PRODUCT.price}" required="required">

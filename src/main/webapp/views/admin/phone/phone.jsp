@@ -41,7 +41,6 @@
 							<th style="width: 15%">Product Name</th>
 							<th style="width: 10%">Price</th>
 							<th style="width: 10%">Category</th>
-							<th style="width: 10%">Brand</th>
 							<th style="width: 20%">Information</th>
 							<th style="width: 15%">Description</th>
 							<th style="width: 10%">Action</th>
@@ -54,8 +53,7 @@
 								<td>${item.productName}</td>
 								<td>${item.price}đ</td>
 								<td>${item.categoryId.categoryName}</td>
-								<td>${item.brandId.brandName}</td>
-								<td>${item.infoId.screen}, ${item.infoId.cameraSelfie}, 
+								<td>${item.infoId.screen}, ${item.infoId.cameraSelfie},
 								${item.infoId.ram}, ${item.infoId.camera}, 
 								${item.infoId.cpu}, ${item.infoId.memory}, 
 								${item.infoId.gpu}, ${item.infoId.cell}, 

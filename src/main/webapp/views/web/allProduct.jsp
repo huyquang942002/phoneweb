@@ -31,28 +31,28 @@
 								alt="">
 						</div>
 					</div> -->
-					<div class="homepage-brands">
-						<div class="homepage-brands-title">
-							<span style="color:black;">THƯƠNG HIỆU SẢN PHẨM</span>
-						</div>
-						<div class="homepage-brands-group">
-							<div class="homepage-brands-body">
-								<div class="homepage-brands-group-top">
-									<c:forEach var="brand" items="${brands}">
-										<a
-											href='<c:url value="/all-product-by-brand?brandId=${brand.brandId}"></c:url>'
-											class="homepage-brands-item"> <img
-											src='<c:url value="${brand.logo}"/>'
-											alt="brand"></a>
-									</c:forEach>
-									
-								</div>
-								<div class="homepage-brands-group-bot">
-									
-								</div>
-							</div>
-						</div>
-					</div>
+<%--					<div class="homepage-brands">--%>
+<%--						<div class="homepage-brands-title">--%>
+<%--							<span style="color:black;">THƯƠNG HIỆU SẢN PHẨM</span>--%>
+<%--						</div>--%>
+<%--						<div class="homepage-brands-group">--%>
+<%--							<div class="homepage-brands-body">--%>
+<%--								<div class="homepage-brands-group-top">--%>
+<%--									<c:forEach var="brand" items="${brands}">--%>
+<%--										<a--%>
+<%--											href='<c:url value="/all-product-by-brand?brandId=${brand.brandId}"></c:url>'--%>
+<%--											class="homepage-brands-item"> <img--%>
+<%--											src='<c:url value="${brand.logo}"/>'--%>
+<%--											alt="brand"></a>--%>
+<%--									</c:forEach>--%>
+
+<%--								</div>--%>
+<%--								<div class="homepage-brands-group-bot">--%>
+
+<%--								</div>--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--					</div>--%>
 				</div>
 			</div>
 

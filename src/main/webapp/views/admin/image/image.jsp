@@ -45,8 +45,8 @@
                      	<c:forEach var="item" items="${model}">
                          <tr>
                              <td>${item.imageId}</td>                            
-                             <td><img src='<c:url value="images/imageProduct/${item.imageBig}"/>'></td>                          
-                             <td><img src='<c:url value="images/imageProduct/${item.imageSmall}"/>'></td>              
+                             <td><img src='<c:url value="${item.imageBig}"/>'></td>
+                             <td><img src='<c:url value="${item.imageSmall}"/>'></td>
                              <td>
                              <c:forEach var="product" items="${PRODUCT}">
                              	<c:if test="${product.imageId.imageId == item.imageId}"> ${product.productId}</c:if>                                            	
