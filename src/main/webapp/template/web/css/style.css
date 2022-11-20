@@ -678,7 +678,7 @@ button {
 
 .footer {
   width: 100%;
-  background-color: white;
+  background-color: #1D1D1F;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -699,6 +699,8 @@ button {
   justify-content: space-between;
   padding: 3rem 0;
   border-bottom: 1px solid #ededed;
+  background-color: #1D1D1F;
+  color: #D2D2D7;
 }
 .footer__container .newsletter-content {
   width: 40%;
@@ -732,6 +734,9 @@ button {
   align-items: stretch;
   justify-content: space-between;
   padding: 2rem 0;
+  background-color:#1D1D1F;
+  color:#D2D2D7;
+      
 }
 .footer__container .contact .title {
   color: black;

@@ -61,7 +61,7 @@
 				<c:if test="${empty USERMODEL}">
 					<a href="<c:url value='/dang-nhap?action=login'/>" class="masthead__login">
 		                <i class="fa fa-user"></i>
-		                <p class="masthead__login-item">Tài Khoản</p>
+		                <p class="masthead__login-item">Login</p>
 	            	</a>
 				</c:if>
 	            <a href='<c:url value="/cart"></c:url>' class="masthead__cart">

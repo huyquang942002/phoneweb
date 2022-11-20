@@ -108,17 +108,7 @@
 				</div>
 			</div>
 			<!--------------------------------------------Top_New_info----------------------------------- -->
-			<div class="list_product">
-				<div class="list_product-info">
-					<div class="list_product-info-title">
-						<span>ĐIỆN THOẠI MỚI NHẤT</span> <a href="">Xem tất cả</a>
-					</div>
-					<div class="list_product-info-group">
-						<div class="list_product-info-list">
-						</div>
-					</div>
-				</div>
-			</div>
+			
 			
 		</div>
 	</div>
