@@ -22,7 +22,7 @@
                 <div class="top-bar__container-wrap">
                     <a class="top-bar-phone">
                         <i class="fas fa-headset"></i>
-                        <span>Tư vấn mua hàng : 1800 6666</span>
+                        <span>Tư vấn mua hàng : 0963902964</span>
                     </a>
                     <a class="top-bar-phone">
                         <i class="fas fa-headset"></i>
@@ -76,7 +76,7 @@
 	                <p class="masthead__cart-item">Cart</p>
 	            </a>
                         
-                    <a href="/ShopPhone/admin-dashboard" class="masthead__cart">
+                    <a href="<%=request.getContextPath()%>/admin-dashboard" class="masthead__cart">
 	                <p class="masthead__cart-item" >ADMIN</p>
 	            </a>    
                         
@@ -87,45 +87,6 @@
 	    </div>
 	    <div class="navbar">
 	        <div class="navbar__container">
-<!--	            <div class="catalog">
-	                <div class="catalog-title">
-	                    <i class="fas fa-bars"></i>
-	                    <span>DANH MỤC SẢN PHẨM</span>
-	                </div>
-	                <div class="catalog-group"> 
-	                    <a href='<c:url value="/all-product-by-category?categoryId=1"></c:url>' class="catalog-item">
-	                        <i class="fas fa-mobile-alt"></i>
-	                        <span class="catalog-name">iPHONE</span>
-	                        <i class="fa fa-angle-right arrow" ></i>
-	                    </a>
-	                    <a href='<c:url value="/all-product-by-category?categoryId=2"></c:url>' class="catalog-item">
-	                        <i class="fas fa-mobile"></i>
-	                        <span class="catalog-name">MAC</span>
-	                        <i class="fa fa-angle-right arrow"></i>
-	                    </a>
-	                    <a href='<c:url value="/all-product-by-category?categoryId=3"></c:url>' class="catalog-item">
-	                        <i class="fas fa-gamepad"></i>
-	                        <span class="catalog-name">iPAD</span>
-	                        <i class="fa fa-angle-right arrow"></i>
-	                    </a>
-	                     <a href="#" class="catalog-item">
-	                        <i class="fas fa-headphones-alt"></i>
-	                        <span class="catalog-name">Tai nghe</span>
-	                        <i class="fa fa-angle-right arrow"></i>
-	                    </a>
-	                    <a href="#" class="catalog-item">
-	                        <i class="fas fa-car-battery"></i>
-	                        <span class="catalog-name">Pin sạc dự phòng</span>
-	                        <i class="fa fa-angle-right arrow"></i>
-	                    </a>
-	                    <a href="#" class="catalog-item">
-	                        <i class="fab fa-usb"></i>
-	                        <span class="catalog-name">Sạc, cáp</span>
-	                        <i class="fa fa-angle-right arrow"></i>
-	                    </a> 
-	                    
-	                </div>
-	            </div>-->
 	            <div class="navbar__menu">
 	                <ul class="navbar__menu-group">
 	                    <li class="navbar__menu-item">

@@ -26,7 +26,7 @@
 									<c:forEach var="img" items="${listImage}">
 										<c:if test="${img.imageId == item.product.imageId}">
 											<a href='<c:url value="/product-detail?productId=${item.product.productId}"></c:url>'> 
-												<img src='<c:url value="images/imageProduct/${img.imageSmall}"/>' alt="Hinh">
+												<img src='<c:url value="${img.imageSmall}"/>' alt="Hinh">
 											</a>
 										</c:if>
 									</c:forEach>									

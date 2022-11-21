@@ -22,7 +22,7 @@
 								<input type="radio" name="payment-methods" id="cod"> <label
 									for="cod"> <img
 									src="https://beta.gearvn.com/wp-content/themes/gearvn-electro-child-v1/assets/icon-payment-method-cod.svg"
-									alt=""> Trả tiền mặc khi nhận hàng
+									alt=""> Trả tiền mặt khi nhận hàng
 								</label>
 							</div>
 							<div class="payment-form-methods-item">

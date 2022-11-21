@@ -20,7 +20,7 @@
             <div class="top-bar__container-wrap">
                 <a class="top-bar-phone">
                     <i class="fas fa-headset"></i>
-                    <span>Tư vấn mua hàng : 1800 6666</span>
+                    <span>Tư vấn mua hàng : 0963902964</span>
                 </a>
                 <a class="top-bar-phone">
                     <i class="fas fa-headset"></i>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="hotline-content">
                     <p>Hotline : 18006666</p>
-                    <p>Email : thlshop@gmail.com</p>
+                    <p>Email : huywocker92016@gmail.com</p>
                 </div>
             </div>
             
