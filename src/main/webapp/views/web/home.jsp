@@ -17,7 +17,7 @@
 						<div class="homepage-left">
 							<i class="fas fa-chevron-left homepage-left-icon-back"></i> <a
 								href="" class="homepage-left-item"> <img
-								src="https://viendidong.com/wp-content/uploads/2021/05/hinh-anh-render-iphone-13-sap-ra-mat-viendidong.jpg"
+								src="https://tintuc.dienthoaigiakho.vn/wp-content/uploads/2020/11/banner-tin-tuc-1200x628-1.jpg"
 								alt="" class="homepage-left-img">
 							</a> <i class="fas fa-chevron-right homepage-left-icon-next"></i>
 						</div>
@@ -63,7 +63,9 @@
 									<img src='<c:url value="${item.imageId.imageSmall}"/>' alt="Hinh">
 									<p class="list_product-info-item-name">${item.productName}</p>
 
-									<p class="list_product-info-item-price">${item.price  } VNĐ</p>
+									<p class="list_product-info-item-price">
+											${item.price } đ
+									</p>
 								</a>
 							</c:forEach>
 						</div>

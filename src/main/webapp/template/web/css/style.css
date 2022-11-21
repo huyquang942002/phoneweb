@@ -653,6 +653,7 @@ button {
   transform: translateY(-5%);
 }
 .list_product-info-item-price {
+  color: #0066CC;
   font-weight: 550;
 }
 

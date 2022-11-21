@@ -10,6 +10,9 @@ html {
 *:after {
   box-sizing: border-box;
 }
+.alert-danger{
+  color: red;
+}
 input,
 textarea,
 select,

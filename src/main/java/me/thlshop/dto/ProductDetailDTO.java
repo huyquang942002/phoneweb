@@ -4,7 +4,6 @@ public class ProductDetailDTO {
 	private Integer productId;
 	private String productName;
 	private Integer categoryId;
-	private Integer brandId;
 	private Integer imageId;
 	private Integer infoId;
 	private String description;
@@ -38,12 +37,6 @@ public class ProductDetailDTO {
 	}
 	public void setCategoryId(Integer categoryId) {
 		this.categoryId = categoryId;
-	}
-	public Integer getBrandId() {
-		return brandId;
-	}
-	public void setBrandId(Integer brandId) {
-		this.brandId = brandId;
 	}
 	public Integer getImageId() {
 		return imageId;
