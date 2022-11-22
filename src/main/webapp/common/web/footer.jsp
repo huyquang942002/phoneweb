@@ -18,8 +18,8 @@
             <div class="contact-info">
                 <div class="title">VỀ SHOPDUNK</div>
                 <p>Nông Quang Huy - 20110496</p>
-                <p>Nguyen Tuan Trung - 20110111</p>
-                <p>Huynh Trung Nhan - 20110111</p>
+                <p>Nguyễn Tuấn Trung - 20161388</p>
+                <p>Huỳnh Trung Nhân - 20110532</p>
             </div>
             <div class="contact-phone">
                     <div class="title">HỆ THỐNG TỔNG ĐÀI MIỄN PHÍ</div>

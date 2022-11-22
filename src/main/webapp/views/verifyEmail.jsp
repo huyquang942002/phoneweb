@@ -21,7 +21,6 @@
 			</c:if>
             <div class="signin">
                <form action='<c:url value="/verify-email" />' class="form form-singup" method="post">
-               		<input type="submit" class="btn__submit" value="Xác nhận">
                		<div class="form__title">Xác nhận Email</div>
                		<div class="form__group">
 	               		<div class="form__item">
