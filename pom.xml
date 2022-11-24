@@ -17,6 +17,7 @@
 		<sitemesh.version>2.4.2</sitemesh.version>
 	</properties>
 
+
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>

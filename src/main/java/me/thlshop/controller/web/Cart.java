@@ -37,6 +37,7 @@ public class Cart extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+
 		request.setAttribute("listImage", imageService.findAll());
 		RequestDispatcher rd = request.getRequestDispatcher("views/web/cart.jsp");
 		rd.forward(request, response);

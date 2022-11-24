@@ -37,6 +37,7 @@ public class HomeController extends HttpServlet {
 	ResourceBundle resourceBundle = ResourceBundle.getBundle("message");
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("Trang chu");
 		response.setContentType("text/html;charset=UTF-8");
 		request.setAttribute("listProduct", productService.findProductOutstanding());
 		request.setAttribute("listImage", imageService.findAll());
@@ -50,7 +51,7 @@ public class HomeController extends HttpServlet {
 				request.setAttribute("message", resourceBundle.getString(message));
 				request.setAttribute("alert", alert);
 			}
-			RequestDispatcher rd = request.getRequestDispatcher("views/login.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("/views/login.jsp");
 			rd.forward(request, response);
 		}else if(action != null && action.equals("signup")) {
 			String message = request.getParameter("message");
