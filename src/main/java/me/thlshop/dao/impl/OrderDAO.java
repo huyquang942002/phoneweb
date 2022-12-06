@@ -3,6 +3,7 @@ package me.thlshop.dao.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.thlshop.entity.ProductEntity;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
@@ -203,4 +204,16 @@ public class OrderDAO implements IOrderDAO{
 			return null;
 		}
 	}
+
+//	public static void main(String[] args) {
+//		try {
+//			List<OrderEntity> l = new OrderDAO().findAll();
+//			for (OrderEntity i:l ) {
+//				System.out.println(i.toString());
+//			}
+//		}catch (Exception e){
+//
+//		}
+//	}
+
 }

@@ -120,4 +120,18 @@ public class ProductEntity {
 	public void setPrice(Long price) {
 		this.price = price;
 	}
+
+	@Override
+	public String toString() {
+		return "ProductEntity{" +
+				"productId=" + productId +
+				", productName='" + productName + '\'' +
+				", categoryId=" + categoryId +
+				", imageId=" + imageId +
+				", infoId=" + infoId +
+				", orderId=" + orderId +
+				", description='" + description + '\'' +
+				", price=" + price +
+				'}';
+	}
 }

@@ -67,16 +67,20 @@ public class Payment extends HttpServlet {
 		if (address != null && phone != null && userEntity != null) {	
 			Boolean isSuccess;
 			try {
-				String list = "Thanks for order: ";
+                                String list = "Invoice details are updated at : http://phonewebute.herokuapp.com/ , Thanks for order: ";
+                                
 				for(int i=0; i< cart.getCartDetails().size(); i++) {
 						list += "x"+cart.getCartDetails().get(i).getQuantity()+" "+cart.getCartDetails().get(i).getProduct().getProductName()+ " - "+cart.getCartDetails().get(i).getTotal() +"VND";
 						if(i < cart.getCartDetails().size() - 1) {
 							list += ", ";
 						}
 				}
+                                
+                                
+                                
 				
 				isSuccess = EmailUtil.sendEmail(host, port, userName, password, 
-						userEntity.getEmail(), "Order at THLShop", list);
+						userEntity.getEmail(), "Order at ShopDunk", list);
 				
 				UserDTO userDTO = userConverter.toDto(userEntity);
 				OrderDTO orderDTO = new OrderDTO();

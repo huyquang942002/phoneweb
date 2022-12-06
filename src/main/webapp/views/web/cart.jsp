@@ -35,7 +35,9 @@
 									<a href="#">${item.product.productName}</a>
 								</div>
 								<div class="cart__product-price">
-									<span>${item.getTotal()} VNĐ</span>
+                                                                        <c:set var="p" value="${item.getTotal()}"/>
+                                                                        <fmt:setLocale value="vi_VN"/>
+                                                                        <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
 								</div>
 
 								<div class="cart__product-quanlity">
@@ -80,11 +82,19 @@
 									<tbody>
 										<tr class="cart-subtotal">
 											<th>Tạm Tính</th>
-											<td>${totalSum} VND</td>
+											<td>
+                                                                                            <c:set var="p" value="${totalSum}"/>
+                                                                                            <fmt:setLocale value="vi_VN"/>
+                                                                                            <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
+                                                                                        </td>
 										</tr>
 										<tr class="order-total">
 											<th>Tổng</th>
-											<td>${totalSum}  VND</td>
+                                                                                        <td>
+                                                                                            <c:set var="p" value="${totalSum}"/>
+                                                                                            <fmt:setLocale value="vi_VN"/>
+                                                                                            <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
+                                                                                        </td>
 										</tr>
 									</tbody>
 								</table>

@@ -33,6 +33,7 @@ public class OrderController extends HttpServlet{
 		String orderId = request.getParameter("orderId");
 		if(type.equals(SystemConstant.LIST)) {
 			request.setAttribute(SystemConstant.MODEL, orderService.findAll());
+//                        request.setAttribute("orderDetail", orderDetailService.findByOrder(Integer.parseInt(orderId)));
 			url = "views/admin/order/order.jsp";
 		}else if(type.equals(SystemConstant.EDIT)) {
 			if(orderId != null) {

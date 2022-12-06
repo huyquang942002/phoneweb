@@ -2,6 +2,7 @@ package me.thlshop.dao.impl;
 
 import java.util.List;
 
+import me.thlshop.service.IProductService;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
@@ -230,5 +231,7 @@ public class ProductDAO implements IProductDAO{
 			return null;
 		}
 	}
+
+
 
 }

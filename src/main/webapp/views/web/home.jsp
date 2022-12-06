@@ -65,8 +65,8 @@
 
 									<p class="list_product-info-item-price">
 											<c:set var="p" value="${item.price}"/>
-						    <fmt:setLocale value="vi_VN"/>
-						    <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
+                                                                                        <fmt:setLocale value="vi_VN"/>
+                                                                                        <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
 									</p>
 								</a>
 							</c:forEach>

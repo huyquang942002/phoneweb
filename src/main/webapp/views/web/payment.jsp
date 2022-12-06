@@ -73,7 +73,11 @@
 								<div class="payment-form-order-item">
 									<span class="product-item"> <span>x${item.quantity}</span> <a
 										href="#">${item.product.productName}</a>
-									</span> <span class="product-price">${item.getTotal()} VNĐ</span>
+									</span> <span class="product-price">
+                                                                            <c:set var="p" value="${item.getTotal()}"/>
+                                                                            <fmt:setLocale value="vi_VN"/>
+                                                                            <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
+                                                                        </span>
 								</div>
 							</c:forEach>
 						</div>
@@ -81,7 +85,11 @@
 							<div class="order-totals">
 								<div class="order-totals-line">
 									<p>Tạm tính :</p>
-									<span>${totalSum}</span>
+									<span>
+                                                                            <c:set var="p" value="${totalSum}"/>
+                                                                            <fmt:setLocale value="vi_VN"/>
+                                                                            <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
+                                                                        </span>
 								</div>
 								<div class="order-totals-line">
 									<p>Phí vận chuyển :</p>
@@ -89,7 +97,11 @@
 								</div>
 								<div class="order-totals-line total ">
 									<p>Tổng cộng :</p>
-									<span>${totalSum} VNĐ</span>
+                                                                        <span>
+                                                                            <c:set var="p" value="${totalSum}"/>
+                                                                            <fmt:setLocale value="vi_VN"/>
+                                                                            <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
+                                                                        </span>
 								</div>
 							</div>
 						</div>
