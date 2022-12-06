@@ -64,7 +64,9 @@
 									<p class="list_product-info-item-name">${item.productName}</p>
 
 									<p class="list_product-info-item-price">
-											${item.price } đ
+											<c:set var="p" value="${item.price}"/>
+						    <fmt:setLocale value="vi_VN"/>
+						    <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
 									</p>
 								</a>
 							</c:forEach>

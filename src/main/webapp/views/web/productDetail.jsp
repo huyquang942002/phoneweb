@@ -23,7 +23,11 @@
 						</div>
 					</div>
 					<div class="single__product-infor-right">
-						<div class="single__product-infor-price">${product.price} VNĐ</div>
+						<div class="single__product-infor-price">
+                                                    <c:set var="p" value="${product.price}"/>
+						    <fmt:setLocale value="vi_VN"/>
+						    <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/>
+                                                </div>
 						<div class="single__product-infor-color">
 							<div class="single__product-infor-color-item active">
 								<img

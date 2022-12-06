@@ -73,7 +73,9 @@
 									alt="Hinh">
 									<div class="list_product-info-inf">
 										<p class="list_product-info-item-name">${item.productName}</p>
-										<p class="list_product-info-item-price">${item.price}VNĐ</p>
+										<p class="list_product-info-item-price"><c:set var="p" value="${item.price}"/>
+						    <fmt:setLocale value="vi_VN"/>
+						    <fmt:formatNumber value="${p}" type="currency" maxFractionDigits="0"/></p>
 									</div>
 								</a>
 							</c:forEach>

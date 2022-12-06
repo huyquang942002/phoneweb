@@ -26,12 +26,12 @@ public class DBUtil {
 				Configuration configuration = new Configuration();
 				Properties settings = new Properties();
 				settings.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
-				settings.put(Environment.URL, "jdbc:mysql://us-cdbr-east-06.cleardb.net/heroku_afc62411b1be16e?reconnect=true");
-				settings.put(Environment.USER, "baf4db5b401b9a");
-				settings.put(Environment.PASS, "340c5a92");
-//				settings.put(Environment.URL, "jdbc:mysql://localhost:3306/phoneweb?useSSL=false");
-//				settings.put(Environment.USER, "root");
-//				settings.put(Environment.PASS, "");
+//				settings.put(Environment.URL, "jdbc:mysql://us-cdbr-east-06.cleardb.net/heroku_17b0cf411382c35?reconnect=true");
+//				settings.put(Environment.USER, "bd6459f82b6fdf");
+//				settings.put(Environment.PASS, "ff64f03c");
+				settings.put(Environment.URL, "jdbc:mysql://localhost:3306/phoneweb?useSSL=false");
+				settings.put(Environment.USER, "root");
+				settings.put(Environment.PASS, "");
 				settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
 
 				settings.put(Environment.SHOW_SQL, "true");
